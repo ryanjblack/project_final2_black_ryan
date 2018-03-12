@@ -61,6 +61,11 @@ ul {
     list-style-type: none;
 }
 
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .a {
     margin: auto;
     max-width: 80px;
@@ -106,8 +111,4 @@ ul {
 .images img {
     width: 100%;
     margin: auto;
-}
-
-.colors {
-    margin: 0 1em 0 1em;
 }

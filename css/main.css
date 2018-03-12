@@ -21,6 +21,7 @@ html {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
 }
 
 h3 {
@@ -37,15 +38,49 @@ a {
     font-family: 'Permanent Marker', cursive;
 }
 
-body {
+/*body {
     background-image: url("../img/torn2.png");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
+}*/
+
+header {
+    background-color: #eaaf39;
+    padding: 1em 0 1em 0;
+    border-bottom: solid #df6a26 1em;
 }
 
 header img {
+    width: 100%;
+    max-width: 253px;
     margin: auto;
-
+    display: block;
 }
 
-.images
+ul {
+    list-style-type: none;
+}
+
+.a {
+    margin: auto;
+    max-width: 80px;
+    margin-top: 1em;
+    display: block;
+}
+
+.copy {
+    margin: 0 1em 2.5em 1em;
+}
+
+.images {
+    margin: 0 1em 2.5em 1em;
+}
+
+.images img {
+    width: 100%;
+    margin: auto;
+}
+
+.colors {
+    margin: 0 1em 0 1em;
+}

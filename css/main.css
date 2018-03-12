@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Permanent Marker', cursive;
+}
+
+body {
+    background-image: url("../img/torn2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+header img {
+    margin: auto;
+
+}
+
+.images

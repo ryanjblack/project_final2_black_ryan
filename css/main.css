@@ -72,6 +72,33 @@ ul {
     margin: 0 1em 2.5em 1em;
 }
 
+.copy a {
+    color: #2c2726;
+    text-decoration: none;
+}
+
+.copy a:hover {
+    color: #eaaf39;
+}
+
+#button {
+    background-color: #2c2726;
+    text-align: center;
+    padding: 0.5em 0 0.5em 0;
+}
+
+#button:hover {
+    background-color: #eaaf39;
+}
+
+#button a {
+    color: white;
+}
+
+#button a:hover {
+    color: white;
+}
+
 .images {
     margin: 0 1em 2.5em 1em;
 }
